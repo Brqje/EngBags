@@ -9,6 +9,6 @@ Modifications:
 - Updated categorization (updated search algorithms and added over 300 specific items)
 
 
-rogue screenshot: https://drive.google.com/open?id=1Hi0xCX0zetWO7GftJ8W2xJrKPOr2SCvH
+shaman screenshot: https://drive.google.com/open?id=1Hi0xCX0zetWO7GftJ8W2xJrKPOr2SCvH
 
-shaman screenshot: https://drive.google.com/open?id=1V-qBo7SKZBViA6NYHCENPZ3N9CF7urZg
+rogue screenshot: https://drive.google.com/open?id=1V-qBo7SKZBViA6NYHCENPZ3N9CF7urZg
