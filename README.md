@@ -9,6 +9,6 @@ Modifications:
 - Updated categorization (updated search algorithms and added over 300 specific items)
 
 
-shaman screenshot: https://drive.google.com/open?id=1Hi0xCX0zetWO7GftJ8W2xJrKPOr2SCvH
+Shaman bag screenshot: https://drive.google.com/open?id=1Hi0xCX0zetWO7GftJ8W2xJrKPOr2SCvH
 
-rogue screenshot: https://drive.google.com/open?id=1V-qBo7SKZBViA6NYHCENPZ3N9CF7urZg
+Rogue bag screenshot: https://drive.google.com/open?id=1V-qBo7SKZBViA6NYHCENPZ3N9CF7urZg
