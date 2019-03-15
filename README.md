@@ -6,7 +6,9 @@ One-bag with item type auto-sort. I've modded it to use sensible categorization/
 Modifications:
 
 - Modified OpenAllBags hook to allow Blizzard "Open All Bags" keybind to actually toggle, instead of just open bags (similar to default UI behaviour)
-- Updated categorization (updated search algorithms and added over 300 specific items)
+- Modified categorization
+- Modified search algorithms
+- Added over 300 items (to specifically categorize)
 
 
 Shaman bag screenshot: https://drive.google.com/open?id=1Hi0xCX0zetWO7GftJ8W2xJrKPOr2SCvH
