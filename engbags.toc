@@ -1,8 +1,7 @@
 ## Interface: 20400
-## Title: EngBags Continued
-## Notes: AutoSorting Bags - 20190314 edit by Baroque
-## Authors: UniRing
-## Patched By: Requital - edited by Baroque
+## Title: EngBags Continued - 2019 Baroque edit
+## Notes: AutoSorting Bags
+## Authors: UniRing (Patched by Requital)
 ## RequiredDeps: 
 ## OptionalDeps: lootlink, auctioneer, equipcompare, FluidFrames
 ## SavedVariables: EngBagsItems, EngBagsConfig
