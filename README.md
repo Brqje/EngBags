@@ -7,8 +7,8 @@ Modifications:
 
 - Modified OpenAllBags hook to allow Blizzard "Open All Bags" keybind to actually toggle, instead of just open bags (similar to default UI behaviour)
 - Modified categorization groups
-- Modified categorization search algorithms
-- Added over 300 items to specifically categorize
+- Modified categorization string search patterns
+- Added over 300 items to specifically categorize (default override)
 
 
 Shaman bag screenshot: https://drive.google.com/open?id=1Hi0xCX0zetWO7GftJ8W2xJrKPOr2SCvH
