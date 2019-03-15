@@ -1,0 +1,14 @@
+## Interface: 20400
+## Title: |CFFFF0000EngBags Continued
+## Notes: AutoSorting Bags - 20190314 edit by Baroque
+## Authors: UniRing
+## Patched By: Requital - edited by Baroque
+## RequiredDeps: 
+## OptionalDeps: lootlink, auctioneer, equipcompare, FluidFrames
+## SavedVariables: EngBagsItems, EngBagsConfig
+## SavedVariablesPerCharacter:
+## Dependencies: 
+EngBank.xml
+eb_options.xml
+EngInventory.xml
+ei_options.xml
