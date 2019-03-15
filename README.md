@@ -1,7 +1,7 @@
 # engbags
 EngBags - 2019 Baroque edit
 
-One-bag with item type auto-sort. I've modded it to use sensible categorization/auto sorting for both leveling and end-game TBC.
+One-bag with item type auto-sort. I've modded it to use sensible categorization/auto sorting for both leveling and end-game TBC 2.4.3.
 
 Modifications:
 
