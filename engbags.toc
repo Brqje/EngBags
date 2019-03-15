@@ -1,5 +1,5 @@
 ## Interface: 20400
-## Title: |CFFFF0000EngBags Continued
+## Title: EngBags Continued
 ## Notes: AutoSorting Bags - 20190314 edit by Baroque
 ## Authors: UniRing
 ## Patched By: Requital - edited by Baroque
