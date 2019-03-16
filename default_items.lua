@@ -319,6 +319,8 @@ EngBags_DefaultItemOverrides = {
 	["31704:0:0:0-SB"] = "KEYS_2",	-- The Tempest Key
 	["32649:0:0:0-SB"] = "KEYS_2_OTHER",	-- Medallion of Karabor
 	["32757:0:0:0-SB"] = "KEYS_2_OTHER",	-- Blessed Medallion of Karabor
+	["22797:0:0:0"] = "RUNE",	-- Nightmare Seed
+	["22795:0:0:0"] = "RUNE",	-- Fel Blossom
 
 	
 }
