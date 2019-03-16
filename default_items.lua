@@ -329,6 +329,7 @@ EngBags_DefaultSearchItemsINSERTTO = 2;
 EngBags_DefaultSearchList = {
 	-- Catagory, Keywords, Tooltip Search, ItemType
 	-- if you put loc::, the end of the string will be looked up in the localization table
+	-- matching patterns in lines placed higher in this list will have precedence over matching patterns in lines placed lower in this list
 	{ "USED_PROJECTILE_SLOTS",	"USED_PROJECTILE_SLOT",		"",	"" },
 	{ "GRAY_ITEMS",			"ITEMRARITY_0",			"",	"" },
 	-- include .* Classes: to string search pattern first, attempt to avoid triggering on tooltip item set listings, possibly resulting in faulty catagorization
@@ -420,4 +421,5 @@ EngBags_DefaultSearchList = {
 	{ "OTHERSOULBOUND_19_RANGED",		"SOULBOUND",			"Wand",	"" }, -- InventorySlotId 18
 	{ "OTHERSOULBOUND_19_RANGED",		"SOULBOUND",			"Relic",	"" }, -- InventorySlotId 18
 	{ "OTHERSOULBOUND",		"SOULBOUND",			"",	"" }
+
 }
