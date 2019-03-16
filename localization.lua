@@ -155,6 +155,7 @@ EngBank_LOCALIZATION = {
 			{ "ELIXIR_GUARDIAN", "Elixir .* Guardian Elixir" },
 			{ "POTION", "Potion" },
 			{ "PROJECTILE", "Projectile" },
+			-- Thrown weapons do not get consumed in TBC
 			-- { "PROJECTILE", "Thrown" },
 			{ "JUJU", "Juju" },
 			{ "BANDAGE", " Bandage" },
@@ -504,6 +505,7 @@ ENGINVENTORY_LOCALIZATION = {
 			{ "ELIXIR_GUARDIAN", "Elixir .* Guardian Elixir" },
 			{ "POTION", "Potion" },
 			{ "PROJECTILE", "Projectile" },
+			-- Thrown weapons do not get consumed in TBC
 			-- { "PROJECTILE", "Thrown" },
 			{ "JUJU", "Juju" },
 			{ "BANDAGE", " Bandage" },
