@@ -6,11 +6,30 @@ One-bag with item type auto-sort. I've modded it to use sensible categorization/
 Modifications:
 
 - Modified OpenAllBags hook to allow Blizzard "Open All Bags" keybind to actually toggle, instead of just open bags (similar to default UI behaviour)
+- Modified default settings: columns from 9 to 10
 - Modified categorization groups
 - Modified categorization string search patterns
 - Added over 300 items to specifically categorize (default override)
 
+The general idea is that similar consumables should be grouped. The same applies to tokens and class items. Also, buffs which are clicked pre-combat (food buffs, elixirs, weapon buffs), are placed to the left, for easy ergonomic access. Potions and runes should always be keybound to action bars, so they're placed to the right. Item sorting is split to 15 groups, with most having subgroups as well:
 
-Shaman bag screenshot: https://drive.google.com/open?id=1Hi0xCX0zetWO7GftJ8W2xJrKPOr2SCvH
+15: explosives / 14: projectiles, soul shards / 13: gray items, empty bag slots
 
-Rogue bag screenshot: https://drive.google.com/open?id=1V-qBo7SKZBViA6NYHCENPZ3N9CF7urZg
+12: boe items, class books, recipees, general reagents, tradegoods / 11: tradeskill, tradeskill created / 10: other soulbound
+
+9: rogue poisons, weapon buffs / 8: other keys, quest items, misc items, tokens / 7: gear which has been equipped
+
+6: flasks, battle elixirs, guardian elixirs / 5: bandages, other consumables / 4: potions, runes
+
+3: food (including food buffs), drinks / 2: class reagents / 1: hearthstone, passive class items, trade tools, mounts, mini pets
+
+Within a group, subgroups are alphabetically sorted.
+Within a subgroup, items are also alphabetically sorted.
+
+**Shaman bag screenshot**
+
+![img](https://imgur.com/0UqCWtg.jpg)
+
+**Rogue bag screenshot**
+
+![img](https://imgur.com/EksbRWG.jpg)
