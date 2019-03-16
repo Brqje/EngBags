@@ -722,6 +722,25 @@ function EngBank_SetDefaultValues(re)
 	EBank_SetDefault("putinslot--TRADESKILL_2_CREATED", 11, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
 	
 	EBank_SetDefault("putinslot--OTHERSOULBOUND", 10, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);       -- this will usually be soulbound equipment	
+	EBank_SetDefault("putinslot--OTHERSOULBOUND_01_HEAD", 10, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--OTHERSOULBOUND_02_NECK", 10, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--OTHERSOULBOUND_03_SHOULDER", 10, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--OTHERSOULBOUND_04_BACK", 10, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--OTHERSOULBOUND_05_CHEST", 10, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--OTHERSOULBOUND_06_SHIRT", 10, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--OTHERSOULBOUND_07_TABARD", 10, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--OTHERSOULBOUND_08_WRIST", 10, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--OTHERSOULBOUND_09_HANDS", 10, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--OTHERSOULBOUND_10_WAIST", 10, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--OTHERSOULBOUND_11_LEGS", 10, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--OTHERSOULBOUND_12_FEET", 10, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--OTHERSOULBOUND_13_FINGER", 10, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--OTHERSOULBOUND_14_TRINKET", 10, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--OTHERSOULBOUND_15_MAINHAND", 10, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--OTHERSOULBOUND_16_ONEHAND", 10, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--OTHERSOULBOUND_17_OFFHAND", 10, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--OTHERSOULBOUND_18_TWOHAND", 10, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--OTHERSOULBOUND_19_RANGED", 10, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
 
 ----------
 
@@ -756,6 +775,25 @@ function EngBank_SetDefaultValues(re)
 	EBank_SetDefault("putinslot--TOKEN_2_THRALLMAR", 8, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
 
 	EBank_SetDefault("putinslot--EQUIPPED", 7, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--EQUIPPED_01_HEAD", 7, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--EQUIPPED_02_NECK", 7, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--EQUIPPED_03_SHOULDER", 7, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--EQUIPPED_04_BACK", 7, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--EQUIPPED_05_CHEST", 7, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--EQUIPPED_06_SHIRT", 7, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--EQUIPPED_07_TABARD", 7, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--EQUIPPED_08_WRIST", 7, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--EQUIPPED_09_HANDS", 7, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--EQUIPPED_10_WAIST", 7, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--EQUIPPED_11_LEGS", 7, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--EQUIPPED_12_FEET", 7, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--EQUIPPED_13_FINGER", 7, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--EQUIPPED_14_TRINKET", 7, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--EQUIPPED_15_MAINHAND", 7, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--EQUIPPED_16_ONEHAND", 7, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--EQUIPPED_17_OFFHAND", 7, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--EQUIPPED_18_TWOHAND", 7, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
+	EBank_SetDefault("putinslot--EQUIPPED_19_RANGED", 7, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
 
 ----------
 	
