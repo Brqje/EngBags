@@ -243,6 +243,7 @@ EngBags_DefaultItemOverrides = {
 	-- TBC
 	["32664:0:0:0-SB"] = "TRADETOOLS",		-- Runed Fel Iron Rod
 	["32665:0:0:0-SB"] = "TRADETOOLS",		-- Runed Adamantite Rod
+	["22463:0:0:0-SB"] = "TRADETOOLS",		-- Runed Eternium Rod
 	["13503:0:0:0-SB"] = "TRADETOOLS",		-- Alchemist's Stone
 	["47046:0:0:0-SB"] = "TRADETOOLS",		-- Guardian's Alchemist Stone
 	["47048:0:0:0-SB"] = "TRADETOOLS",		-- Sorcerer's Alchemist Stone
@@ -283,6 +284,8 @@ EngBags_DefaultItemOverrides = {
 	["32601:0:0:0"] = "ELIXIR",	-- Unstable Flask of the Sorcerer
 	["32902:0:0:0"] = "POTION",	-- Bottled Nethergon Energy	
 	["32905:0:0:0"] = "POTION",	-- Bottled Nethergon Vapor
+	["22797:0:0:0"] = "RUNE",	-- Nightmare Seed
+	["22795:0:0:0"] = "RUNE",	-- Fel Blossom
 	["23827:0:0:0"] = "EXPLOSIVE",	-- Super Sapper Charge
 	["24579:0:0:0-SB"] = "TOKEN_2_HONORHOLD",	-- Mark of Honor Hold
 	["24520:0:0:0-SB"] = "TOKEN_2_HONORHOLD",	-- Honor Hold Favor (technically a consumable)
@@ -322,9 +325,6 @@ EngBags_DefaultItemOverrides = {
 	["31704:0:0:0-SB"] = "KEYS_2",	-- The Tempest Key
 	["32649:0:0:0-SB"] = "KEYS_2_OTHER",	-- Medallion of Karabor
 	["32757:0:0:0-SB"] = "KEYS_2_OTHER",	-- Blessed Medallion of Karabor
-	["22797:0:0:0"] = "RUNE",	-- Nightmare Seed
-	["22795:0:0:0"] = "RUNE",	-- Fel Blossom
-
 	
 }
 
