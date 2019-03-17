@@ -248,6 +248,7 @@ EngBags_DefaultItemOverrides = {
 	["47048:0:0:0-SB"] = "TRADETOOLS",		-- Sorcerer's Alchemist Stone
 	["47049:0:0:0-SB"] = "TRADETOOLS",		-- Redeemer's Alchemist Stone
 	["47050:0:0:0-SB"] = "TRADETOOLS",		-- Assassin's Alchemist Stone
+	["20815:0:0:0"] = "TRADETOOLS",		-- Jeweler's Kit
 	["22147:0:0:0"] = "DRUID_REAGENTS",	-- Flintweed Seed
 	["22148:0:0:0"] = "DRUID_REAGENTS",	-- Wild Quillvine
 	["21927:0:0:0"] = "ROGUE_POISON",	-- Instant Poison VII
