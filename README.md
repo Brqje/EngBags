@@ -28,8 +28,8 @@ Within a subgroup, items are also alphabetically sorted.
 
 **Shaman bag screenshot**
 
-![img](https://imgur.com/0UqCWtg.jpg)
+![img](https://imgur.com/zQmKP6A.jpg)
 
 **Rogue bag screenshot**
 
-![img](https://imgur.com/EksbRWG.jpg)
+![img](https://imgur.com/JzpVMVG.jpg)
