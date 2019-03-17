@@ -383,7 +383,6 @@ EngBags_DefaultSearchList = {
 	{ "TRADESKILL_2_CREATED",	"TRADESKILL_2_CREATED",		"",	"" },
 	{ "TRADESKILL_COOKING",		"TRADESKILL_COOKING",		"",	"" },
 	{ "TRADESKILL_FIRSTAID",	"TRADESKILL_FIRSTAID",		"",	"" },
-	{ "TRADEGOODS",			"",				"",	"loc::tradegoods" },
 	{ "QUESTITEMS",			"",				"",	"loc::quest" },
 	{ "MISC",			"",				"",	"loc::miscellaneous" },
 	{ "REAGENT",			"",				"",	"loc::reagent" },
@@ -429,6 +428,7 @@ EngBags_DefaultSearchList = {
 	{ "OTHERSOULBOUND_19_RANGED",		"SOULBOUND",			"Thrown",	"" }, -- InventorySlotId 18
 	{ "OTHERSOULBOUND_19_RANGED",		"SOULBOUND",			"Wand",	"" }, -- InventorySlotId 18
 	{ "OTHERSOULBOUND_19_RANGED",		"SOULBOUND",			"Relic",	"" }, -- InventorySlotId 18
-	{ "OTHERSOULBOUND",		"SOULBOUND",			"",	"" }
+	{ "OTHERSOULBOUND",		"SOULBOUND",			"",	"" },
+	{ "TRADEGOODS",			"",				"",	"loc::tradegoods" },
 
 }
