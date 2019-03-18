@@ -1,5 +1,5 @@
 ## Interface: 20400
-## Title: EngBags - 2019 Baroque edit
+## Title: EngBags |cFFFFFFFF- Baroque edit|r
 ## Notes: AutoSorting Bags
 ## Authors: UniRing (Patched by Requital)
 ## RequiredDeps: 
