@@ -1,7 +1,7 @@
 # EngBags
 EngBags - 2019 Baroque edit
 
-One-bag with item type auto-sort. I've modded it to use sensible categorization/auto sorting for both leveling and end-game TBC 2.4.3. It's modified for all the requirements of a serious TBC end-game raider in 2019, presenting inventory contents in a streamlined way.
+One-bag with item type auto-sort. I've modded it to use sensible categorization/auto sorting for both leveling and end-game TBC 2.4.3. It's modified for all the requirements of a serious TBC end-game raider, presenting inventory contents in a streamlined way.
 
 Modifications:
 
@@ -11,7 +11,7 @@ Modifications:
 - Modified categorization string search patterns
 - Added over 300 items to specifically categorize (default override)
 
-The general idea is that similar consumables should be grouped. The same applies to tokens and class items. Also, buffs which are clicked pre-combat (food buffs, elixirs, weapon buffs), are placed to the left, for easy ergonomic access. Potions and runes should always be keybound to action bars, so they're placed to the right. Item sorting is split to 15 groups, with most having subgroups as well:
+The general idea is that similar consumables should be grouped. The same applies to tokens and class items. Also, buffs which are generally clicked pre-combat (food buffs, elixirs, weapon buffs), are placed to the left, for easy ergonomic access. Potions and runes should always be keybound to action bars, so they're placed to the right. Item sorting is split between 15 groups, with most having subgroups as well:
 
 15: explosives / 14: projectiles, soul shards / 13: gray items, empty bag slots
 
@@ -33,3 +33,10 @@ Within a subgroup, items are also alphabetically sorted.
 **Rogue bag screenshot**
 
 ![img](https://imgur.com/JzpVMVG.jpg)
+
+
+**FAQ**
+
+**Q:** I have a non-English WoW client. Why don't I get similar categorization results as in your screenshots/video?
+**A:** EngInventory's categorization relies heavily on string search patterns, thus being localization dependent. It's the foundation of how the addon works. I could add handling for other localizations, but I'd need massive input.
+
