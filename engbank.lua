@@ -755,7 +755,6 @@ function EngBank_SetDefaultValues(re)
 	EBank_SetDefault("putinslot--TOKEN_1", 8, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
 	EBank_SetDefault("putinslot--TOKEN_1_AHNQIRAJ", 8, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
 	EBank_SetDefault("putinslot--TOKEN_1_ARGENTDAWN", 8, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
-	EBank_SetDefault("putinslot--TOKEN_1_BATTLEGROUND", 8, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
 	EBank_SetDefault("putinslot--TOKEN_1_BLASTEDLANDS", 8, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
 	EBank_SetDefault("putinslot--TOKEN_1_CENARIONCIRCLE", 8, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
 	EBank_SetDefault("putinslot--TOKEN_1_FELWOOD", 8, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
@@ -773,7 +772,8 @@ function EngBank_SetDefaultValues(re)
 	EBank_SetDefault("putinslot--TOKEN_2_SPOREGGAR", 8, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
 	EBank_SetDefault("putinslot--TOKEN_2_THECONSORTIUM", 8, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
 	EBank_SetDefault("putinslot--TOKEN_2_THRALLMAR", 8, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
-
+	EBank_SetDefault("putinslot--TOKEN_BATTLEGROUND", 8, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
+	
 	EBank_SetDefault("putinslot--EQUIPPED", 7, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
 	EBank_SetDefault("putinslot--EQUIPPED_01_HEAD", 7, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
 	EBank_SetDefault("putinslot--EQUIPPED_02_NECK", 7, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
