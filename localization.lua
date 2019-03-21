@@ -165,14 +165,10 @@ EngBank_LOCALIZATION = {
 			{ "EXPLOSIVE", "Engineering .* radius" }, -- engineering bombs
 			{ "QUESTITEMS", "Use: Bind pages [0-9]" },	-- shredder operating manual & green hills of stranglethorn
 			{ "KEYS", " Key" },
-			{ "TOKEN_1_ARGENTDAWN", "'s Scourgestone" },	-- Argent Dawn Scourgestones
-			{ "TOKEN_1_BATTLEGROUND", "Mark of Honor" },	-- Battleground tokens
 			{ "TOKEN_1_AHNQIRAJ", ".* Idol .* Classes: " },	-- AQ20 Idols (Cenarion Circle)
 			{ "TOKEN_1_AHNQIRAJ", "Idol of .* Classes: " },	-- AQ40 Idols (Brood of Nozdormu)
 			{ "TOKEN_1_WINTERSPRING", "E'ko" },	-- Winterspring E'ko
 			{ "TOKEN_1_ZANDALARTRIBE", ".* Bijou" },	-- ZG Bijou
-			{ "TOKEN_1", "PvE Token" },	-- Retro specific tokens
-			{ "TOKEN_1", "PvP Token" },	-- Retro specific tokens
 			{ "CLASSBOOK", "Classes: .*Requires Level .*Use: Teaches" },	-- Class books
 			{ "BOE", "Binds when equipped" },
 			{ "DESIGN", "Design:" },
@@ -515,14 +511,10 @@ ENGINVENTORY_LOCALIZATION = {
 			{ "EXPLOSIVE", "Engineering .* radius" }, -- engineering bombs
 			{ "QUESTITEMS", "Use: Bind pages [0-9]" },	-- shredder operating manual & green hills of stranglethorn
 			{ "KEYS", " Key" },
-			{ "TOKEN_1_ARGENTDAWN", "'s Scourgestone" },	-- Argent Dawn Scourgestones
-			{ "TOKEN_1_BATTLEGROUND", "Mark of Honor" },	-- Battleground tokens
 			{ "TOKEN_1_AHNQIRAJ", ".* Idol .* Classes: " },	-- AQ20 Idols (Cenarion Circle)
 			{ "TOKEN_1_AHNQIRAJ", "Idol of .* Classes: " },	-- AQ40 Idols (Brood of Nozdormu)
 			{ "TOKEN_1_WINTERSPRING", "E'ko" },	-- Winterspring E'ko
 			{ "TOKEN_1_ZANDALARTRIBE", ".* Bijou" },	-- ZG Bijou
-			{ "TOKEN_1", "PvE Token" },	-- Retro specific tokens
-			{ "TOKEN_1", "PvP Token" },	-- Retro specific tokens
 			{ "CLASSBOOK", "Classes: .*Requires Level .*Use: Teaches" },	-- Class books
 			{ "BOE", "Binds when equipped" },
 			{ "DESIGN", "Design:" },
