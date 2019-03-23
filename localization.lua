@@ -159,7 +159,6 @@ EngBank_LOCALIZATION = {
 			-- { "PROJECTILE", "Thrown" },
 			{ "JUJU", "Juju" },
 			{ "BANDAGE", " Bandage" },
-			{ "RUNE", " Healthstone" },
 			{ "EXPLOSIVE", "Engineering .* radius" }, -- engineering bombs
 			{ "QUESTITEMS", "Use: Bind pages [0-9]" },	-- shredder operating manual & green hills of stranglethorn
 			{ "KEYS", " Key" },
@@ -503,7 +502,6 @@ ENGINVENTORY_LOCALIZATION = {
 			-- { "PROJECTILE", "Thrown" },
 			{ "JUJU", "Juju" },
 			{ "BANDAGE", " Bandage" },
-			{ "RUNE", " Healthstone" },
 			{ "EXPLOSIVE", "Engineering .* radius" }, -- engineering bombs
 			{ "QUESTITEMS", "Use: Bind pages [0-9]" },	-- shredder operating manual & green hills of stranglethorn
 			{ "KEYS", " Key" },
