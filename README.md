@@ -7,6 +7,7 @@ Modifications:
 
 - Modified OpenAllBags hook to allow Blizzard "Open All Bags" keybind to actually toggle, instead of just open bags (similar to default UI behaviour)
 - Modified default settings: columns from 9 to 10
+- Modified default color settings: background and borders from blue to dark gray
 - Modified categorization groups
 - Modified categorization string search patterns
 - Added nearly 400 items to specifically categorize (default override)
