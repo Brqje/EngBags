@@ -837,15 +837,15 @@ function EngInventory_SetDefaultValues(re)
         EI_SetDefault("newItemColor2_B", 0.4 , 1+re, EngBags_NumericRange, 0, 1.0);
 
 	for i = 1, EngBags_MAINWINDOWCOLORIDX do
-		EI_SetDefault("bar_colors_"..i.."_background_r", 0.0, 1+re, EngBags_NumericRange, 0, 1.0);
-		EI_SetDefault("bar_colors_"..i.."_background_g", 0.25, 1+re, EngBags_NumericRange, 0, 1.0);
-		EI_SetDefault("bar_colors_"..i.."_background_b", 0.5, 1+re, EngBags_NumericRange, 0, 1.0);
-		EI_SetDefault("bar_colors_"..i.."_background_a", 0.5, 1+re, EngBags_NumericRange, 0, 1.0);
+		EI_SetDefault("bar_colors_"..i.."_background_r", 0.15, 1+re, EngBags_NumericRange, 0, 1.0); -- default r 0
+		EI_SetDefault("bar_colors_"..i.."_background_g", 0.15, 1+re, EngBags_NumericRange, 0, 1.0); -- default g 0.25
+		EI_SetDefault("bar_colors_"..i.."_background_b", 0.15, 1+re, EngBags_NumericRange, 0, 1.0); -- default b 0.5
+		EI_SetDefault("bar_colors_"..i.."_background_a", 0.5, 1+re, EngBags_NumericRange, 0, 1.0); -- default a 0.5
 
-		EI_SetDefault("bar_colors_"..i.."_border_r", 0.0, 1+re, EngBags_NumericRange, 0, 1.0);
-		EI_SetDefault("bar_colors_"..i.."_border_g", 0.5, 1+re, EngBags_NumericRange, 0, 1.0);
-		EI_SetDefault("bar_colors_"..i.."_border_b", 1.0, 1+re, EngBags_NumericRange, 0, 1.0);
-		EI_SetDefault("bar_colors_"..i.."_border_a", 0.5, 1+re, EngBags_NumericRange, 0, 1.0);
+		EI_SetDefault("bar_colors_"..i.."_border_r", 0.0, 1+re, EngBags_NumericRange, 0, 1.0); -- default r 0
+		EI_SetDefault("bar_colors_"..i.."_border_g", 0.0, 1+re, EngBags_NumericRange, 0, 1.0); -- default g 0.5
+		EI_SetDefault("bar_colors_"..i.."_border_b", 0.0, 1+re, EngBags_NumericRange, 0, 1.0); -- default b 1.0
+		EI_SetDefault("bar_colors_"..i.."_border_a", 0.67, 1+re, EngBags_NumericRange, 0, 1.0); -- default a 0.5
 	end
 
 	EngInventory_SetClassBars();
