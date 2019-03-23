@@ -943,6 +943,9 @@ function EngInventory_SetDefaultValues(re)
 	EI_SetDefault("putinslot--TOKEN_2_THECONSORTIUM", 8, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
 	EI_SetDefault("putinslot--TOKEN_2_THRALLMAR", 8, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
 	EI_SetDefault("putinslot--TOKEN_BATTLEGROUND", 8, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
+	EI_SetDefault("putinslot--TOKEN_LIITA_1", 8, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
+	EI_SetDefault("putinslot--TOKEN_LIITA_2", 8, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
+	EI_SetDefault("putinslot--TOKEN_LIITA_3", 8, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
 	
 	EI_SetDefault("putinslot--EQUIPPED", 7, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
 	EI_SetDefault("putinslot--EQUIPPED_01_HEAD", 7, 1+re, EngInventory_NumericRange, 1, EngBags_MAX_BARS);
