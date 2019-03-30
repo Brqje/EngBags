@@ -860,9 +860,8 @@ function EngInventory_SetDefaultValues(re)
 	EI_SetDefault("putinslot--CUSTOM_05", 15, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
 	EI_SetDefault("putinslot--CUSTOM_06", 15, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
 
-	EI_SetDefault("putinslot--EMPTY_PROJECTILE_SLOTS", 14, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
-	EI_SetDefault("putinslot--USED_PROJECTILE_SLOTS", 14, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
-	EI_SetDefault("putinslot--PROJECTILE", 14, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);          -- arrows and bullets that AREN'T in your shot bags	
+	EI_SetDefault("putinslot--EMPTY_PROJECTILE_SLOTS", 14, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS); -- quiver and ammo bag empty slots
+	EI_SetDefault("putinslot--USED_PROJECTILE_SLOTS", 14, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS); -- quiver and ammo bag used slots
 	EI_SetDefault("putinslot--SOULSHARDS", 14, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
 	
 	EI_SetDefault("putinslot--EMPTY_SLOTS", 13, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);         -- Empty slots go in this bar
@@ -923,7 +922,7 @@ function EngInventory_SetDefaultValues(re)
 	EI_SetDefault("putinslot--OTHERORUNKNOWN", 8, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);      -- if not soulbound, but doesn't match any other catagory, it goes here
 	EI_SetDefault("putinslot--QUESTITEMS", 8, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
 	EI_SetDefault("putinslot--TOKEN_1", 8, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
-	EI_SetDefault("putinslot--TOKEN_1_AHNQIRAJ", 8, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
+	EI_SetDefault("putinslot--TOKEN_1_AHNQIRAJ", 8, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS); -- Ahn'Qiraj scarabs are used for both Cenarion Circle & Brood of Nozdormu factions
 	EI_SetDefault("putinslot--TOKEN_1_ARGENTDAWN", 8, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
 	EI_SetDefault("putinslot--TOKEN_1_BLASTEDLANDS", 8, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
 	EI_SetDefault("putinslot--TOKEN_1_CENARIONCIRCLE", 8, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
@@ -990,6 +989,7 @@ function EngInventory_SetDefaultValues(re)
 	EI_SetDefault("putinslot--FOOD", 3, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
 
 	EI_SetDefault("putinslot--CLASS_ITEMS1", 2, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
+	EI_SetDefault("putinslot--PROJECTILE", 2, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS); -- arrows and bullets that AREN'T in your quiver and/or ammo bag
 
 	EI_SetDefault("putinslot--CLASS_ITEMS2", 1, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
 	EI_SetDefault("putinslot--HEARTH", 1, 1+re, EngBags_NumericRange, 1, EngBags_MAX_BARS);
