@@ -667,15 +667,15 @@ function EngBank_SetDefaultValues(re)
         EBank_SetDefault("newItemColor2_B", 0.4 , 1+re, EngBags_NumericRange, 0, 1.0);
 
 	for i = 1, EngBags_MAINWINDOWCOLORIDX do
-		EBank_SetDefault("bar_colors_"..i.."_background_r", 0.5, 1+re, EngBags_NumericRange, 0, 1.0);
-		EBank_SetDefault("bar_colors_"..i.."_background_g", 0.0, 1+re, EngBags_NumericRange, 0, 1.0);
-		EBank_SetDefault("bar_colors_"..i.."_background_b", 0.0, 1+re, EngBags_NumericRange, 0, 1.0);
-		EBank_SetDefault("bar_colors_"..i.."_background_a", 0.5, 1+re, EngBags_NumericRange, 0, 1.0);
+		EBank_SetDefault("bar_colors_"..i.."_background_r", 0.15, 1+re, EngBags_NumericRange, 0, 1.0); -- default r 0.5
+		EBank_SetDefault("bar_colors_"..i.."_background_g", 0.15, 1+re, EngBags_NumericRange, 0, 1.0); -- default g 0
+		EBank_SetDefault("bar_colors_"..i.."_background_b", 0.15, 1+re, EngBags_NumericRange, 0, 1.0); -- default b 0
+		EBank_SetDefault("bar_colors_"..i.."_background_a", 0.5, 1+re, EngBags_NumericRange, 0, 1.0); -- default a 0.5
 
-		EBank_SetDefault("bar_colors_"..i.."_border_r", 1.0, 1+re, EngBags_NumericRange, 0, 1.0);
-		EBank_SetDefault("bar_colors_"..i.."_border_g", 0.0, 1+re, EngBags_NumericRange, 0, 1.0);
-		EBank_SetDefault("bar_colors_"..i.."_border_b", 0.0, 1+re, EngBags_NumericRange, 0, 1.0);
-		EBank_SetDefault("bar_colors_"..i.."_border_a", 0.5, 1+re, EngBags_NumericRange, 0, 1.0);
+		EBank_SetDefault("bar_colors_"..i.."_border_r", 0.0, 1+re, EngBags_NumericRange, 0, 1.0); -- default r 1.0
+		EBank_SetDefault("bar_colors_"..i.."_border_g", 0.0, 1+re, EngBags_NumericRange, 0, 1.0); -- default b 0
+		EBank_SetDefault("bar_colors_"..i.."_border_b", 0.0, 1+re, EngBags_NumericRange, 0, 1.0); -- default g 0
+		EBank_SetDefault("bar_colors_"..i.."_border_a", 0.67, 1+re, EngBags_NumericRange, 0, 1.0); -- default a 0.5
 	end
 
 	EngBank_SetClassBars();
