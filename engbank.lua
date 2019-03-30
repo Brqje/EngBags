@@ -623,7 +623,7 @@ function EngBank_SetDefaultValues(re)
 	EBank_SetDefault("hide_bag_slots", 0, 1+re, EngBags_NumericRange, 0, 1);	
 	EBank_SetDefault("is_sorting_enabled", 1, 1+re, EngBags_NumericRange, 0, 1);	
 
-	EBank_SetDefault("maxColumns", 9, 1+re, EngBags_NumericRange, EngBags_MAXCOLUMNS_MIN,EngBags_MAXCOLUMNS_MAX);
+	EBank_SetDefault("maxColumns", 10, 1+re, EngBags_NumericRange, EngBags_MAXCOLUMNS_MIN,EngBags_MAXCOLUMNS_MAX);
 	EBank_SetDefault("moveLock", 1, 1+re, EngBags_NumericRange, 0,1);
 
 	EBank_SetDefault("hook_BANKFRAME_OPENED", 1, 1+re, EngBags_NumericRange, 0, 1);
