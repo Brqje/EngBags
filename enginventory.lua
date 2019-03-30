@@ -780,7 +780,7 @@ function EngInventory_SetDefaultValues(re)
 	EI_SetDefault("hide_hilightbag_buttons", 0, 1+re, EngBags_NumericRange, 0, 1);
 	EI_SetDefault("hide_sorting_button", 0, 1+re, EngBags_NumericRange, 0, 1);	
 	EI_SetDefault("hide_search_frame", 0, 1+re, EngBags_NumericRange, 0, 1);	
-	EI_SetDefault("hide_bag_icons", 0, 1+re, EngBags_NumericRange, 0, 1);
+	EI_SetDefault("hide_bag_icons", 1, 1+re, EngBags_NumericRange, 0, 1);
 	EI_SetDefault("hide_bag_icons_normal", 0, 1+re, EngBags_NumericRange, 0, 1);
 	EI_SetDefault("hide_bag_icons_profession", 0, 1+re, EngBags_NumericRange, 0, 1);
 	EI_SetDefault("hide_bag_icons_quiver", 0, 1+re, EngBags_NumericRange, 0, 1);

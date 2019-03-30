@@ -616,7 +616,7 @@ function EngBank_SetDefaultValues(re)
         end
 
 	EBank_SetDefault("tooltip_mode", 1, 1+re, EngBags_NumericRange, 0, 1);
-	EBank_SetDefault("hide_bag_icons", 0, 1+re, EngBags_NumericRange, 0, 1);
+	EBank_SetDefault("hide_bag_icons", 1, 1+re, EngBags_NumericRange, 0, 1);
 	EBank_SetDefault("hide_purchase button", 0, 1+re, EngBags_NumericRange, 0, 1);
 	EBank_SetDefault("hide_hilightbag_buttons", 0, 1+re, EngBags_NumericRange, 0, 1);
 	EBank_SetDefault("hide_sorting_button", 0, 1+re, EngBags_NumericRange, 0, 1);	
