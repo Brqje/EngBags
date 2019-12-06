@@ -4,7 +4,7 @@ EngBank_SHOWITEMDEBUGINFO = 0;
 EngBank_WIPECONFIGONLOAD = 0;	-- for debugging, test it out on a new config every load
 BINDING_HEADER_EngBank = "EngBank @ EngBags";
 BINDING_NAME_EB_TOGGLE = "Toggle Bank Window";
-EngBank_MAXBUTTONS = 220;
+EngBank_MAXBUTTONS = 280;
 EngBank_TOP_PADWINDOW = 75;
 EngBank_WINDOWBOTTOMPADDING_EDITMODE = 50;
 EngBank_WINDOWBOTTOMPADDING_NORMALMODE = 25;
@@ -623,7 +623,7 @@ function EngBank_SetDefaultValues(re)
 	EBank_SetDefault("hide_bag_slots", 0, 1+re, EngBags_NumericRange, 0, 1);	
 	EBank_SetDefault("is_sorting_enabled", 1, 1+re, EngBags_NumericRange, 0, 1);	
 
-	EBank_SetDefault("maxColumns", 10, 1+re, EngBags_NumericRange, EngBags_MAXCOLUMNS_MIN,EngBags_MAXCOLUMNS_MAX);
+	EBank_SetDefault("maxColumns", 15, 1+re, EngBags_NumericRange, EngBags_MAXCOLUMNS_MIN,EngBags_MAXCOLUMNS_MAX);
 	EBank_SetDefault("moveLock", 1, 1+re, EngBags_NumericRange, 0,1);
 
 	EBank_SetDefault("hook_BANKFRAME_OPENED", 1, 1+re, EngBags_NumericRange, 0, 1);

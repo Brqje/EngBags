@@ -7,7 +7,7 @@ ENGINVENTORY_WIPECONFIGONLOAD = 0;	-- for debugging, test it out on a new config
 BINDING_HEADER_ENGINVENTORY = "EngInventory @ EngBags";
 BINDING_NAME_EI_TOGGLE = "Toggle Inventory Window";
 
-ENGINVENTORY_MAXBUTTONS = 128;
+ENGINVENTORY_MAXBUTTONS = 192;
 
 
 ENGINVENTORY_TOP_PADWINDOW = 30;
@@ -787,7 +787,7 @@ function EngInventory_SetDefaultValues(re)
 	EI_SetDefault("hide_keyring_empty_slots", 0, 1+re, EngBags_NumericRange, 0, 1);
 	EI_SetDefault("hide_keyring_keys", 0, 1+re, EngBags_NumericRange, 0, 1);
 
-        EI_SetDefault("maxColumns", 10, 1+re, EngBags_NumericRange, EngBags_MAXCOLUMNS_MIN,EngBags_MAXCOLUMNS_MAX);
+        EI_SetDefault("maxColumns", 15, 1+re, EngBags_NumericRange, EngBags_MAXCOLUMNS_MIN,EngBags_MAXCOLUMNS_MAX);
 
         EI_SetDefault("moveLock", 1, 1+re, EngBags_NumericRange, 0,1);
 
@@ -2079,7 +2079,7 @@ function EngInventory_ItemButton_OnEnter()
 		itm["bagname"] = "Backpack";
 	end
 
-	GameTooltip:AddLine("Container::"..itm["bagname"], 1,0,0 );
+	-- GameTooltip:AddLine("Container::"..itm["bagname"], 1,0,0 );
 
 	if ( EngInventoryConfig["tooltip_mode"] == 1 ) then
 		EngBags_ModifyItemTooltip(itm["bagnum"], itm["slotnum"], "GameTooltip", itm);
